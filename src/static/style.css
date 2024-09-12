@@ -1,3 +1,15 @@
 html {
-    background: #371f42;
+    background: #212121;
+    color: #ffffff;
+}
+body{
+    justify-content: center;
+    allign-items: center;
+   
+    display: flex;
+}
+.instrument{
+    background: #212121;
+	color: #ffffff;
+	text-allign: center;
 }
