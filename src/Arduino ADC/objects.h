@@ -60,6 +60,7 @@ namespace assets {
             return isAnalogPin;
         }
 
+        
     };
 
 
@@ -359,5 +360,22 @@ namespace assets {
 
     };
 
+	class Thermistor : public RawPin {
 
+    private:
+		int pinNumber;
+
+    public:
+        Thermistor(int pinNumber) :
+			RawPin(pinNumber, true, INPUT) {
+			this->pinNumber = pinNumber;
+		}
+
+		double getTemp() {
+			double val = readFrom();
+			double voltage = val * (5.0 / 1023.0);
+			double resistance = (5.0 - voltage) / voltage;
+			double temp = 1.0 / (1.0 / 298.15 + 1.0 / 3435.0 * log(resistance / 10000.0)) - 273.15;
+			return temp;
+		}
 }

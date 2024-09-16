@@ -6,16 +6,13 @@ OUTPUT = Literal["OUTPUT"]
 class PinError(Exception):
     pass
 
-
-
-
 class Pin:
 
     def __init__(self, pinNumber: int, mode: Literal["INPUT", "OUTPUT"]) -> None:
         self.__pinNumber = pinNumber
         self.__mode = mode
         self.__value = 0
-
+    
     def getPin(self) -> int:
         return self.__pinNumber
     
@@ -43,5 +40,5 @@ class Pin:
 
 
 
-    
+
 
