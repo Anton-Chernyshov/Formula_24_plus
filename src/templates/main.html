@@ -1,10 +1,23 @@
 
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>Dashboard</title>
-      <link rel="stylesheet" href="../static/style.css">
-  </head>
+    <link rel="stylesheet" href="../static/style.css">
+    <script>
+        function updateNumber() {
+            fetch('/update')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('motorTemp').innerText = data.number;
+            })
+            .catch(error => console.log('Error:', error));
+        }
+
+        // Update every 2 seconds (2000 milliseconds)
+        setInterval(updateNumber, 2000);
+    </script>
+</head>
   <body>
     <div class="instrument">
         <h3 class="title">Voltage</h3>
@@ -16,7 +29,7 @@
     </div>
      <div class="instrument">
         <h3 class="title">Motor_Temp</h3>
-        <h2 class="data">{{ motorTemp }}</h2>
+        <h2 class="data", id="motorTemp">N/A</h2>
     </div>
      <div class="instrument">
         <h3 class="title">RPM</h3>

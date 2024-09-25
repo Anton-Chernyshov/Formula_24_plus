@@ -1,4 +1,9 @@
+"""
+Server side file for handling digital inputs from the sensors
 
+//
+this might be changed so that the arduino handles all the sensors later, as that will be over a serial connection
+"""
 from typing import Literal
 INPUT = Literal["INPUT"]
 OUTPUT = Literal["OUTPUT"]
