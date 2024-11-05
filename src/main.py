@@ -12,7 +12,7 @@ rpm: int = 0
 #serialConnection = serial.Serial("/dev/ttyUSB0", 9600)
 
 
-@app.route("/")
+@app.route("/") 
 def homepage():
 
     templateData = {
@@ -22,15 +22,28 @@ def homepage():
         "rpm":f"{rpm}"
         }
     return render_template("main.html", **templateData), 202
+
+def getData():
+    try:
+        #line = serialConnection.readline().decode("utf-8").strip()
+        line = f"{random.randint(0, 999)},{random.randint(0, 999)},{random.randint(0, 999)},{random.randint(0, 999)}"
+        values = line.split(",")
+        voltage = values[0]
+        amperage = values[1]
+        motorTemp = values[2]
+        rpm = values[3]
+    except Exception as e:
+        print(str(e))
+    return [voltage, amperage, motorTemp, rpm]
+
+
 @app.route("/update")
 def update():
     try:
-        #line = serialConnection.readline().decode("utf-8").strip()
-        line = f"{random.randint(0, 999)}"
-        values = line.split(",")
-        temperature1 = values[0]
-        return jsonify(number=temperature1), 200
+        data = getData()
+        #return data as jsons
+        return jsonify(voltage = str(data[0]), amperage = data[1], motorTemp = data[2], rpm = data[3] ), 200
     except Exception as e:
-        return jsonify(error=str(e)), 500
+        return jsonify(error=str(e), voltage = "null", amperage = "null", motorTemp = "null", rpm = "null"), 500
 if __name__ == "__main__":
     app.run("0.0.0.0", "80", debug=True)
