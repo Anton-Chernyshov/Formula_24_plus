@@ -1,16 +1,14 @@
 
 from flask import Flask,  redirect, render_template, jsonify
 import random
-#import serial
+import data_logger
+import serialReader
 app = Flask(__name__)
 
 voltage: float = 0.0
 amperage: float = 0.0
 motorTemp: float = 0.0
 rpm: int = 0
-
-#serialConnection = serial.Serial("/dev/ttyUSB0", 9600)
-
 
 @app.route("/") 
 def homepage():
@@ -23,9 +21,10 @@ def homepage():
         }
     return render_template("main.html", **templateData), 202
 
+@data_logger.logger
 def getData():
     try:
-        #line = serialConnection.readline().decode("utf-8").strip()
+        line = serialReader.getData(serialReader.arduinoDataIn)
         line = f"{random.randint(0, 999)},{random.randint(0, 999)},{random.randint(0, 999)},{random.randint(0, 999)}"
         values = line.split(",")
         voltage = values[0]
@@ -45,5 +44,6 @@ def update():
         return jsonify(voltage = str(data[0]), amperage = data[1], motorTemp = data[2], rpm = data[3] ), 200
     except Exception as e:
         return jsonify(error=str(e), voltage = "null", amperage = "null", motorTemp = "null", rpm = "null"), 500
+
 if __name__ == "__main__":
     app.run("0.0.0.0", "80", debug=True)

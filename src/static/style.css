@@ -1,6 +1,6 @@
 html {
-    background: #212121;
-    color: #ffffff;
+    color: #212121;
+    background: #ffffff;
     
 }
 body{
@@ -10,12 +10,11 @@ body{
     display: flex;
 }
 .instrument{
-    background: #212121;
-	color: #ffffff;
+    
 	text-allign: center;
     font-size: 50px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .data{
     padding-top: 15px;

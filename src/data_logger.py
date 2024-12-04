@@ -1,10 +1,19 @@
 import datetime
-class logFile:
-
-    def __init__(self, sessionFile: str):
-        ...
 
 
-def logger(func: function, file: logFile, *args, **kwargs):  # decorator to log to file 
-    
-    ret = func(*args, **kwargs)
+def logger(func: "function", *args, **kwargs):  # decorator to log to file 
+    def wrapper(*args, **kwargs):
+        ret = func(*args, **kwargs)
+        
+        time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        data = f"[{time}] -> called function [{func.__name__}] with arguments [{args}, {kwargs}] -> [{ret}]"
+        with open(f"log [{datetime.datetime.now().strftime("%Y-%m-%d-%H")}].logfile", "a") as file:
+            file.write(data+"\n")
+        
+        print(data)
+        return ret
+    return wrapper
+
+
+
+
