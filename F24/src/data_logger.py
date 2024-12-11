@@ -7,7 +7,7 @@ def logger(func: "function", *args, **kwargs):  # decorator to log to file
         
         time = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         data = f"[{time}] -> called function [{func.__name__}] with arguments [{args}, {kwargs}] -> [{ret}]"
-        with open(f"log [{datetime.datetime.now().strftime("%Y-%m-%d-%H")}].logfile", "a") as file:
+        with open(f"log [{time}].logfile", "a") as file:
             file.write(data+"\n")
         
         print(data)

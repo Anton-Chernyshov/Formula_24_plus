@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Anton\\OneDrive\\Documents\\Programming\\Formula 24\\F24\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Anton\\OneDrive\\Documents\\Programming\\Formula 24\\F24\\src\\templates\\main.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\templates\\main.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Anton\\OneDrive\\Documents\\Programming\\Formula 24\\F24\\src\\main.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Anton\\OneDrive\\Documents\\Programming\\Formula 24\\F24\\src\\data_logger.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\data_logger.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Anton\\OneDrive\\Documents\\Programming\\Formula 24\\F24\\src\\Arduino ADC\\main.ino||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Arduino ADC\\main.ino||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Anton\\OneDrive\\Documents\\Programming\\Formula 24\\F24\\src\\Arduino ADC\\objects.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Arduino ADC\\objects.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Anton\\OneDrive\\Documents\\Programming\\Formula 24\\F24\\src\\static\\updateVariables.js||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\static\\updateVariables.js||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Anton\\OneDrive\\Documents\\Programming\\Formula 24\\F24\\src\\static\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\static\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Anton\\OneDrive\\Documents\\Programming\\Formula 24\\F24\\src\\sensors.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\sensors.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.py",
+              "DocumentMoniker": "C:\\Users\\Anton\\OneDrive\\Documents\\Programming\\Formula 24\\F24\\src\\main.py",
+              "RelativeDocumentMoniker": "src\\main.py",
+              "ToolTip": "C:\\Users\\Anton\\OneDrive\\Documents\\Programming\\Formula 24\\F24\\src\\main.py",
+              "RelativeToolTip": "src\\main.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAaAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAM5SURBVEhLtVVNSFRRFD7z85yGyZnUYZwxIrGUsCRSSrFFJlQriSCKCBdBLmZTlKCBi8xVzc5NiyREIqJVC6FctCgy6sWggyAVWDOpTaWpozO9mTfv53bue3fGMX3yLPrg45x33r3n3Pvd8\u002B6D/wpCiIW5eXR0dBDmmsXhgYGBMPPXYcMC/f397Glz9PT0SKIoTkuSdBGL8Cy8BlZm/woej4fr6uoq5TjuIS6skYXXwLAAz/OGLITP5yspKNLAwsagEgmCYIq9vb15PxqNLgaDwSmcv4el0vBPElGEQiGNQ0NDJTabzY\u002BhOv2NDjuz6/CnFIVobNTlRmk0m8Pg4GA4EomwJx2GO6BJNmJTUxOg3iAoFphNZCG2mIGltAp2u50euoNNz8NwB0ZYEUS4PfIeYvMrIKRFUGQZKUG52wF9504eGh8f59hQDVvuolhChjIXB6Hz9Sy5zpn5ZRgOf3G0tLTUsBQatiyRqhJ4/eEbdD54A6qiIGXdYpGUkIHi4uLtLIWGTbtIwYmUFqsVwtMpePQuDmPRn3C81g/NNT44UVcBnI2Ow13QIqoKx\u002BoTN0jyGSHS3CheRaWmuijhrob7L6byeq9Ko/t09ZolKoDwSp\u002BUmTwK3s6bpiQamYizVVLSXeX81RiVqrqczsS7UslggY8A8o/Tm0qUw\u002Bx8UltljjZcaaXXBVXlbqjyu2FvwANnmqvgQsMnTCpggTQSbTa\u002B2/A2LZToDi\u002BBLFE5JNhZ4oR77SI4yRS\u002Byd3saKU4Jk8BqCIyiwXQ\u002BrvNdVEF9jiVgEoRbHWBU3qJyb4iMak0CyB\u002BRrvMVo7M7aJo15IpiVoPBPKH6dkmsyhClXQpZJa40HdUA3CBJ6Ykoki7KyG\u002BkIS2g2nwkceYhElRVIu/LbwhCC2MTWl1ocXe3XFqDuzeI6b/aFb8FiwWCxSp2B0Ld/XkVG8FLVHQx3Nw4SVY0X0Lh48ieRyfNCURBf2I6BkQ7KFVrZksZZcBvJdwFU5tLCZ\u002BTpNrvhYpAN0BczfE9WtXJ/f53u6HxFO9SG4XrnqQAn1ZzuE5i8mH2fCtAz9/G/IKkZMR8mtCJqkxQrLfYxjjke3INjYUAfAb47MfvRyFLYgAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-09-16T11:07:57.446Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "objects.h",
+              "DocumentMoniker": "C:\\Users\\Anton\\OneDrive\\Documents\\Programming\\Formula 24\\F24\\src\\Arduino ADC\\objects.h",
+              "RelativeDocumentMoniker": "src\\Arduino ADC\\objects.h",
+              "ToolTip": "C:\\Users\\Anton\\OneDrive\\Documents\\Programming\\Formula 24\\F24\\src\\Arduino ADC\\objects.h",
+              "RelativeToolTip": "src\\Arduino ADC\\objects.h",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-12T09:07:22.301Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "updateVariables.js",
+              "DocumentMoniker": "C:\\Users\\Anton\\OneDrive\\Documents\\Programming\\Formula 24\\F24\\src\\static\\updateVariables.js",
+              "RelativeDocumentMoniker": "src\\static\\updateVariables.js",
+              "ToolTip": "C:\\Users\\Anton\\OneDrive\\Documents\\Programming\\Formula 24\\F24\\src\\static\\updateVariables.js",
+              "RelativeToolTip": "src\\static\\updateVariables.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-26T09:27:19.393Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "data_logger.py",
+              "DocumentMoniker": "C:\\Users\\Anton\\OneDrive\\Documents\\Programming\\Formula 24\\F24\\src\\data_logger.py",
+              "RelativeDocumentMoniker": "src\\data_logger.py",
+              "ToolTip": "C:\\Users\\Anton\\OneDrive\\Documents\\Programming\\Formula 24\\F24\\src\\data_logger.py",
+              "RelativeToolTip": "src\\data_logger.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAM5SURBVEhLtVVNSFRRFD7z85yGyZnUYZwxIrGUsCRSSrFFJlQriSCKCBdBLmZTlKCBi8xVzc5NiyREIqJVC6FctCgy6sWggyAVWDOpTaWpozO9mTfv53bue3fGMX3yLPrg45x33r3n3Pvd8\u002B6D/wpCiIW5eXR0dBDmmsXhgYGBMPPXYcMC/f397Glz9PT0SKIoTkuSdBGL8Cy8BlZm/woej4fr6uoq5TjuIS6skYXXwLAAz/OGLITP5yspKNLAwsagEgmCYIq9vb15PxqNLgaDwSmcv4el0vBPElGEQiGNQ0NDJTabzY\u002BhOv2NDjuz6/CnFIVobNTlRmk0m8Pg4GA4EomwJx2GO6BJNmJTUxOg3iAoFphNZCG2mIGltAp2u50euoNNz8NwB0ZYEUS4PfIeYvMrIKRFUGQZKUG52wF9504eGh8f59hQDVvuolhChjIXB6Hz9Sy5zpn5ZRgOf3G0tLTUsBQatiyRqhJ4/eEbdD54A6qiIGXdYpGUkIHi4uLtLIWGTbtIwYmUFqsVwtMpePQuDmPRn3C81g/NNT44UVcBnI2Ow13QIqoKx\u002BoTN0jyGSHS3CheRaWmuijhrob7L6byeq9Ko/t09ZolKoDwSp\u002BUmTwK3s6bpiQamYizVVLSXeX81RiVqrqczsS7UslggY8A8o/Tm0qUw\u002Bx8UltljjZcaaXXBVXlbqjyu2FvwANnmqvgQsMnTCpggTQSbTa\u002B2/A2LZToDi\u002BBLFE5JNhZ4oR77SI4yRS\u002Byd3saKU4Jk8BqCIyiwXQ\u002BrvNdVEF9jiVgEoRbHWBU3qJyb4iMak0CyB\u002BRrvMVo7M7aJo15IpiVoPBPKH6dkmsyhClXQpZJa40HdUA3CBJ6Ykoki7KyG\u002BkIS2g2nwkceYhElRVIu/LbwhCC2MTWl1ocXe3XFqDuzeI6b/aFb8FiwWCxSp2B0Ld/XkVG8FLVHQx3Nw4SVY0X0Lh48ieRyfNCURBf2I6BkQ7KFVrZksZZcBvJdwFU5tLCZ\u002BTpNrvhYpAN0BczfE9WtXJ/f53u6HxFO9SG4XrnqQAn1ZzuE5i8mH2fCtAz9/G/IKkZMR8mtCJqkxQrLfYxjjke3INjYUAfAb47MfvRyFLYgAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-11-04T12:50:24.518Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.html",
+              "DocumentMoniker": "C:\\Users\\Anton\\OneDrive\\Documents\\Programming\\Formula 24\\F24\\src\\templates\\main.html",
+              "RelativeDocumentMoniker": "src\\templates\\main.html",
+              "ToolTip": "C:\\Users\\Anton\\OneDrive\\Documents\\Programming\\Formula 24\\F24\\src\\templates\\main.html",
+              "RelativeToolTip": "src\\templates\\main.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-11T19:35:38.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "main.ino",
+              "DocumentMoniker": "C:\\Users\\Anton\\OneDrive\\Documents\\Programming\\Formula 24\\F24\\src\\Arduino ADC\\main.ino",
+              "RelativeDocumentMoniker": "src\\Arduino ADC\\main.ino",
+              "ToolTip": "C:\\Users\\Anton\\OneDrive\\Documents\\Programming\\Formula 24\\F24\\src\\Arduino ADC\\main.ino",
+              "RelativeToolTip": "src\\Arduino ADC\\main.ino",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATGSURBVEhLrVVpbFRVFP7unfdmpjPTdkqhZbFBg5S2VIpAWzC4xWKI\u002BgOjvzQx8YeJxAQTNYbERFwTl0Rx4T8xBNBgUGKMVX6Iy4\u002BGstQFaFgs7UD3bfa3Xr/7OlUxBEE4kzNv3vnePefc73z3jcA/zPV9hIQQZ9LZsoxth1UpfjWWME2nvrI8b/tKRUJyJqiUCgr0Tk6jPlmBvWfONQ4XCo/lXHetp1QFnwie\u002B28TkELkYiGju6YsuvvxpUt6esYm1Mp51RCHh0fQ\u002Bvl\u002B7Lhz/QP92ez2adte6vrX0vvfFpICFaY5cFM8/uKWFc2f/nBxSIntx39BRIYaT05NfjFWtOpnur6EuWs0hapI5EJ9ZfKRvOt2hb5pakZDVdWz7P5hy/XgcA7X61nbreAo3DfWtX4tDvSejX3W1/flYCHfUWrhuk2RhJpo9Mi9C\u002BZvlAOZTJi8l2ddFxzuJa5jl4vP\u002BpXwtOMkRguFqMxYlmBA5ElPruRZx0WGbnl\u002B4Pq3jv2F09Ml3C7h2mfxvKevXGPZMPilCrwpMCj4IXdYFI9h0y2Lcfu8uVrKODIyhgN953ExXwgomBeN4qGb69BeW4OwDOG3iQnsP9eHPzJZLVeOWaGgG7EdyKzjBJ3o4RR9D3WJGN5pX4NN82swciGF8aFBPLpoPt5f145lFeWoY/F3167BE4vrkB4eQirVjw3VVXhvbWuAF9mozVwWr3nmFk991ZnsSqc7J1ynjacYr65aiZZYFC98dxAnCkVASjTE49h2xzrEEwlYXGxaRWz7/hBSrg/FU5vkM2/fcxfG2OjzXd2wuMtKw\u002Bi9LZ7okJozntpg61WmiWZ2se/kKaRCJjY2LceDjU0YD0fxyuFuRPlcrRHC6z/9jD7iT7e34ZnVqzFuRrDn9Fncmoij1jQCWjXVmnaZ45cuENRQHJpto0heDcNART6HymwapueiaIbB9xNyHFw\u002BUgaTzZjEQ5kSLiQsYuA8temcpQIub3ydHVNFC7\u002BOjOLuRQsRZ4K9g0PYNTjMd0AIm5cthcWEI9PT2Ly8CQk28PGJU/jo9xMQ/L1hQS16h4cxUpgRgs/XTSCc9Xv2JYdsu9NSfptPfpeRgueWN8A3THRPTlEVwOqqJAx2v\u002BPoMeTZ6ZaWFYiURXF4fCIQyCoOuZxrPzh6HMfJhORuw0L0zjXNDtG6a29y3HE6HaXadGXFLS5WHu6nipYkKwM\u002BTzPRwQuD6A8ZIDdYwM7uq6lG45w5MDjg81NT\u002BHYghTMiBFEWC3ZgskCFYXSIlp27kmnP63RLBfRrztdbo1IirhOcez0TUPuSuwKVpnESHuCS9Gr\u002BlcbZuSKuzYDojYdkh3T1UDgHoZPqhXT9dyEiUVgxyjJeDhmLU60sQhpmcRmJwGG8SFzEE5B6d8Rn8yjf5bxdSN9zHeV6Wb3w3y70glLSy/qVcNfLK8\u002BzZGpyKsdSR4U\u002BdTfQmbOHe5qQ1eGwrrabgX494BvhzDVG/ySbz3tSb6ehueUYga3KsS8qypHX/\u002Bcza8eZ62XO6ZDOHYy87s23KA5BOqkk5T9J4bQyHNfYNViBAuqBkDuFFD9Sfd7AS1tnCszawm2vaVlSzKKKt9GZ6FWbxbWTQkrXGh3F2I4PGQL\u002BBKFFrHRPnaC7AAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-09-26T09:17:24.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\Anton\\OneDrive\\Documents\\Programming\\Formula 24\\F24\\src\\static\\style.css",
+              "RelativeDocumentMoniker": "src\\static\\style.css",
+              "ToolTip": "C:\\Users\\Anton\\OneDrive\\Documents\\Programming\\Formula 24\\F24\\src\\static\\style.css",
+              "RelativeToolTip": "src\\static\\style.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-11T19:35:51.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "sensors.py",
+              "DocumentMoniker": "C:\\Users\\Anton\\OneDrive\\Documents\\Programming\\Formula 24\\F24\\src\\sensors.py",
+              "RelativeDocumentMoniker": "src\\sensors.py",
+              "ToolTip": "C:\\Users\\Anton\\OneDrive\\Documents\\Programming\\Formula 24\\F24\\src\\sensors.py",
+              "RelativeToolTip": "src\\sensors.py",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAM5SURBVEhLtVVNSFRRFD7z85yGyZnUYZwxIrGUsCRSSrFFJlQriSCKCBdBLmZTlKCBi8xVzc5NiyREIqJVC6FctCgy6sWggyAVWDOpTaWpozO9mTfv53bue3fGMX3yLPrg45x33r3n3Pvd8\u002B6D/wpCiIW5eXR0dBDmmsXhgYGBMPPXYcMC/f397Glz9PT0SKIoTkuSdBGL8Cy8BlZm/woej4fr6uoq5TjuIS6skYXXwLAAz/OGLITP5yspKNLAwsagEgmCYIq9vb15PxqNLgaDwSmcv4el0vBPElGEQiGNQ0NDJTabzY\u002BhOv2NDjuz6/CnFIVobNTlRmk0m8Pg4GA4EomwJx2GO6BJNmJTUxOg3iAoFphNZCG2mIGltAp2u50euoNNz8NwB0ZYEUS4PfIeYvMrIKRFUGQZKUG52wF9504eGh8f59hQDVvuolhChjIXB6Hz9Sy5zpn5ZRgOf3G0tLTUsBQatiyRqhJ4/eEbdD54A6qiIGXdYpGUkIHi4uLtLIWGTbtIwYmUFqsVwtMpePQuDmPRn3C81g/NNT44UVcBnI2Ow13QIqoKx\u002BoTN0jyGSHS3CheRaWmuijhrob7L6byeq9Ko/t09ZolKoDwSp\u002BUmTwK3s6bpiQamYizVVLSXeX81RiVqrqczsS7UslggY8A8o/Tm0qUw\u002Bx8UltljjZcaaXXBVXlbqjyu2FvwANnmqvgQsMnTCpggTQSbTa\u002B2/A2LZToDi\u002BBLFE5JNhZ4oR77SI4yRS\u002Byd3saKU4Jk8BqCIyiwXQ\u002BrvNdVEF9jiVgEoRbHWBU3qJyb4iMak0CyB\u002BRrvMVo7M7aJo15IpiVoPBPKH6dkmsyhClXQpZJa40HdUA3CBJ6Ykoki7KyG\u002BkIS2g2nwkceYhElRVIu/LbwhCC2MTWl1ocXe3XFqDuzeI6b/aFb8FiwWCxSp2B0Ld/XkVG8FLVHQx3Nw4SVY0X0Lh48ieRyfNCURBf2I6BkQ7KFVrZksZZcBvJdwFU5tLCZ\u002BTpNrvhYpAN0BczfE9WtXJ/f53u6HxFO9SG4XrnqQAn1ZzuE5i8mH2fCtAz9/G/IKkZMR8mtCJqkxQrLfYxjjke3INjYUAfAb47MfvRyFLYgAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-09-11T16:57:01.746Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

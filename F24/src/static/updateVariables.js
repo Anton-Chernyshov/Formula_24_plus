@@ -13,3 +13,5 @@ function updateNumber() {
         }
 
         setInterval(updateNumber, 500);
+
+
