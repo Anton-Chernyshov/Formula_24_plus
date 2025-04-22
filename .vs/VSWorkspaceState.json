@@ -1,7 +1,14 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\F24",
+    "\\F24\\src",
+    "\\F24\\src\\static",
+    "\\F24\\src\\templates",
+    "\\Ground Station",
+    "\\Ground Station\\src",
+    "\\Ground Station\\src\\data"
   ],
-  "SelectedNode": "\\C:\\Users\\Anton\\Source\\Repos\\Formula_24_plus",
+  "SelectedNode": "\\Ground Station\\src\\gui.py",
   "PreviewInSolutionExplorer": false
 }
