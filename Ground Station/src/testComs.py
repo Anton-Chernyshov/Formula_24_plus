@@ -1,7 +1,7 @@
 import serial
 
 # Open the serial port (update to your correct port, e.g., '/dev/ttyUSB0' or '/dev/ttyAMA0')
-ser = serial.Serial('COM7', baudrate=9600, timeout=2)#, parity=serial.PARITY_NONE, stopbits=serial.STOPBITS_ONE, bytesize=serial.EIGHTBITS,  xonxoff=True, rtscts=True, dsrdtr=True)
+ser = serial.Serial('/dev/ttyUSB0', baudrate=9600, timeout=2)#, parity=serial.PARITY_NONE, stopbits=serial.STOPBITS_ONE, bytesize=serial.EIGHTBITS,  xonxoff=True, rtscts=True, dsrdtr=True)
 
 
 # Print out the settings to confirm

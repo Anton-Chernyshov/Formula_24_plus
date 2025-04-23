@@ -1,7 +1,7 @@
-import gpiozero
+#import gpiozero
 
-from gpiozero import Button, LED
-from gpiozero.pins.pigpio import PiGPIOFactory
+#from gpiozero import Button, LED
+#from gpiozero.pins.pigpio import PiGPIOFactory
 
 import math
 

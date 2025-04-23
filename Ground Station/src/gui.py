@@ -8,7 +8,7 @@ import os
 import subprocess
 import sys
 import json
-import time
+import time 
 import random
 import threading
 import requests
@@ -30,6 +30,9 @@ config = {
     "bg":"#212935", # background hex color
     "text":"#ffffff", # text hex color
 }
+
+
+
 
 root = tk.Tk()
 root.geometry("800x600")
@@ -71,6 +74,10 @@ data = deque(maxlen=50)
 x_vals = deque(maxlen=50)
 start_time = time.time()
 ani = None  # to store the animation object
+data2 = deque(maxlen=50)
+x_vals2 = deque(maxlen=50)
+start_time2 = time.time()
+ani2 = None
 
 
 def getData():
@@ -78,8 +85,11 @@ def getData():
     # Simulate getting data from a sensor
     # In a real application, this would be replaced with actual sensor data retrieval code
     return random.randint(0, 100)
+def getData2():
 
-def testPlot():
+
+    return random.randint(0, 100)
+def plot1():
     """Handles Starting Plotting"""
     global ani
 
@@ -109,7 +119,7 @@ def testPlot():
     canvas1.draw()
 
 
-def clearData():
+def clear1():
     """Handles clearing the data"""
     global data, x_vals, ani
     data.clear()
@@ -124,13 +134,61 @@ def clearData():
     axis1.set_title("Cleared Plot")
     canvas1.draw()
 
+def plot2():
+
+    """Handles Starting Plotting"""
+    global ani2
+
+    def init():
+        axis2.set_xlim(0, 50)
+        axis2.set_ylim(0, 100)
+        line.set_data([], [])
+        return line,
+
+    def update(frame):
+        data2.append(getData2())
+        x_vals2.append(time.time() - start_time2)
+        line.set_data(range(len(data2)), list(data2))
+        axis2.set_xlim(max(0, len(data2)-50), len(data2))
+        return line,
+
+    axis2.cla()
+    axis2.set_title("Live Data")
+    axis2.set_xlabel("Sample Number")
+    axis2.set_ylabel("Value")
+    line, = axis2.plot([], [], lw=2)
 
 
+    ani2 = animation.FuncAnimation(fig2, update, init_func=init, interval=500, blit=True)
+
+    # Redraw canvas inside tkinter
+    canvas2.draw()
+
+def clear2():
+    """Handles clearing the data"""
+    global data, x_vals, ani2
+    data2.clear()
+    x_vals2.clear()
+
+    if ani2:
+        ani2.event_source.stop()
+        ani2._stop()
+        ani2 = None
+
+    axis2.cla()
+    axis2.set_title("Cleared Plot")
+    canvas2.draw()
 # graphing stuff
-testplot = tk.Button(frame, text="Test Plot", command=lambda: testPlot())
-testplot.grid(row=1, column=0, padx=10, pady=10, sticky="w")
-clearplot = tk.Button(frame, text="Clear Plot", command=lambda: clearData())
-clearplot.grid(row=1, column=1, padx=10, pady=10, sticky="w")
+plot1button = tk.Button(frame, text="Start Plot", command=lambda: plot1())
+plot1button.grid(row=1, column=0, padx=10, pady=10, sticky="w")
+clearplot1 = tk.Button(frame, text="Clear Plot", command=lambda: clear1())
+clearplot1.grid(row=2, column=0, padx=10, pady=10, sticky="w")
+
+plot2button = tk.Button(frame, text="Start Plot", command=lambda: plot2())
+plot2button.grid(row=1, column=1, padx=10, pady=10,sticky="w")
+clearplot2 = tk.Button(frame, text="Clear Plot", command=lambda: clear2())
+clearplot2.grid(row=2, column=1, padx=10, pady=10, sticky="w")
+
 
 graphFrame.columnconfigure(0, weight=1)
 graphFrame.columnconfigure(1, weight=1)
