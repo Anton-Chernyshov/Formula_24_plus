@@ -7,13 +7,21 @@ ser = serial.Serial('/dev/ttyUSB0', baudrate=9600, timeout=2)#, parity=serial.PA
 # Print out the settings to confirm
 print(f"Serial Port opened: {ser.name}")
 print(f"Baudrate: {ser.baudrate}")
-
+buffer = ""
 # Receive data in a loop
 try:
     while True:
         if ser.in_waiting > 0:
-            data = ser.read(ser.in_waiting)  # Read available data
-            print(data.decode('utf-8', errors='ignore'))  # Print the received data
+
+            data = ser.read(ser.in_waiting) .decode('utf-8', errors='ignore') # Read available data
+            buffer += data
+
+            while ";" in buffer:
+                # Split the buffer at the first semicolon
+                message, buffer = buffer.split(";", 1)
+                # Process the message (for example, print it)
+                print(f"Received: {message}")
+                # Here you can add code to handle the message as needed
 except KeyboardInterrupt:
     print("Program interrupted by user.")
 finally:

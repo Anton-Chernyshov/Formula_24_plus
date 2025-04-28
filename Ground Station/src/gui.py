@@ -20,7 +20,7 @@ import matplotlib.backends.backend_tkagg
 import matplotlib.animation as animation
 import numpy as np
 from collections import deque
-
+import serial
 
 
 
@@ -78,13 +78,44 @@ data2 = deque(maxlen=50)
 x_vals2 = deque(maxlen=50)
 start_time2 = time.time()
 ani2 = None
+"""
+ser = serial.Serial('/dev/ttyUSB0', baudrate=9600, timeout=2)#, parity=serial.PARITY_NONE, stopbits=serial.STOPBITS_ONE, bytesize=serial.EIGHTBITS,  xonxoff=True, rtscts=True, dsrdtr=True)
 
 
+# Print out the settings to confirm
+print(f"Serial Port opened: {ser.name}")
+print(f"Baudrate: {ser.baudrate}")
+buffer = ""
+
+def readSerial():
+    global buffer
+    message = "0"
+    if ser.in_waiting > 0:
+        data = ser.read(ser.in_waiting).decode('utf-8', errors='ignore') # Read available data
+        buffer += data
+
+        while ";" in buffer:
+            # Split the buffer at the first semicolon
+            message, buffer = buffer.split(";", 1)
+            # Process the message (for example, print it)
+            print(f"Received: {message}")
+            break
+        # Here you can add code to handle the message as needed
+    return message
+"""
+def readSerial():
+    return "1, 2"
 def getData():
     """This function handles getting data from sensors"""
     # Simulate getting data from a sensor
     # In a real application, this would be replaced with actual sensor data retrieval code
-    return random.randint(0, 100)
+    data = readSerial()
+    if data.split(",")[0].isnumeric():
+        data = int(data.split(",")[0])
+    else:
+        data = 0
+    return data
+    #return random.randint(0, 100)
 def getData2():
 
 
